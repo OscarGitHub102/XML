@@ -1,0 +1,16 @@
+<!ELEMENT peliculas (pelicula+)>
+<!ELEMENT pelicula (titulo, titori, nacionalidades, idiomas, anio.produccion, director, interpretes)>
+<!ATTLIST pelicula orden CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT tit.ori (#PCDATA)>
+<!ELEMENT nacionalidades (nacionalidad+)>
+<!ELEMENT nacionalidad (#PCDATA)>
+<!ATTLIST nacionalidad nacion CDATA #REQUIRED>
+<!ELEMENT idiomas (idioma+)>
+<!ELEMENT idioma (#PCDATA)>
+<!ELEMENT anio.produccion (#CDATA)>
+<!ELEMENT directores (director+)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT interpretes (interprete+)>
+<!ELEMENT interprete (#PCDATA)>
+<!ATTLIST interprete numero CDATA #REQUIRED>

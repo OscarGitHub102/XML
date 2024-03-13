@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recetas SYSTEM "recetas.dtd">
+<recetas>
+  <receta orden =  "1">
+    <nombre>Filetes empanados</nombre>
+    <tipos>
+      <tipo>Segundo plato</tipo>
+    </tipos>
+    <ingredientes>
+      <ingrediente numero =  "1">
+        <nombre>Filetes de pollo</nombre>
+      </ingrediente>
+      <ingrediente numero =  "2">
+        <nombre>Aceite</nombre>
+      </ingrediente>
+      <ingrediente numero =  "3">
+        <nombre>Huevo</nombre>
+      </ingrediente>
+      <ingrediente numero =  "4">
+        <nombre>Pan rallado</nombre>
+      </ingrediente>
+      <ingrediente numero =  "5">
+        <nombre>Sal</nombre>
+      </ingrediente>
+    </ingredientes>
+    <preparacion>
+      <paso paso = "1">Batir el huevo</paso>
+      <paso paso = "2">Echar la cucharada pequeña de sal en el filete</paso>
+      <paso paso = "3">Mojar el filete en el huevo batido y rebozarlo con el pan rallado</paso>
+      <paso paso = "4">Ponerlo en la sartén y freirlo</paso>
+      <paso paso = "5">Servir</paso>
+    </preparacion>
+    <apto_celiacos>NO</apto_celiacos>
+  </receta>
+  <receta orden =  "2">
+    <nombre>Tortilla francesa</nombre>
+    <tipos>
+      <tipo>Segundo plato</tipo>
+    </tipos>
+    <ingredientes>
+      <ingrediente numero = "1">
+        <nombre>Huevo</nombre>
+      </ingrediente>
+      <ingrediente numero = "2">
+        <nombre>Aceite</nombre>
+      </ingrediente>
+      <ingrediente numero =  "3">
+        <nombre>Sal</nombre>
+      </ingrediente>
+    </ingredientes>
+    <preparacion>
+    <paso paso = "1">Batir el huevo (añadiendo la sal)</paso>
+    <paso paso = "2">Ponerlo en la sartén y dejar que se cuaje</paso>
+    <paso paso = "3">Doblarla mientras se hace, para darle forma</paso>
+    <paso paso = "4">Servir</paso>
+  </preparacion>
+    <apto_celiacos>SÍ</apto_celiacos>
+  </receta>
+  <receta orden =  "3">
+    <nombre>Sopa</nombre>
+    <tipos>
+      <tipo>Primer plato</tipo>
+    </tipos>
+    <ingredientes>
+      <ingrediente numero = "1">
+        <nombre>Agua</nombre>
+      </ingrediente>
+      <ingrediente numero = "2">
+        <nombre>Fideos</nombre>
+      </ingrediente>
+      <ingrediente numero =  "3">
+        <nombre>Pastilla de caldo</nombre>
+      </ingrediente>
+    </ingredientes>
+    <preparacion>
+    <paso paso = "1">Calentar el agua en una cazuela y echar la pastilla de caldo</paso>
+    <paso paso = "2">Echar los fideos cuando el agua esté en ebullición</paso>
+    <paso paso = "3">Remover hasta que los fideos estén blandos</paso>
+    <paso paso = "4">Servir</paso>
+  </preparacion>
+    <apto_celiacos>SÍ</apto_celiacos>
+  </receta>
+</recetas>
