@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="recetas" type="tipoRecetas">
+
+    <xs:complexType name="tipoRecetas">
+      <xs:sequence>
+        <xs:element name="receta" type="tipoReceta" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoReceta">
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="tipos" type="tipoTipos"/>
+        <xs:element name="ingredientes" type="tipoIngredientes"/>
+        <xs:element name="preparacion" type="tipoPreparacion"/>
+        <xs:element name="apto_celiacos" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute name="orden" type="xs:integer"/>
+    </xs:complexType>
+
+    <xs:complexType name="tipoTipos">
+      <xs:sequence>
+        <xs:element name="tipo" type="xs:string" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoIngredientes">
+      <xs:sequence>
+        <xs:element name="ingrediente" type="tipoIngrediente" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoIngrediente">
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="numero" type="xs:integer"/>
+    </xs:complexType>
+    
+    <xs:complexType name="tipoPreparacion">
+      <xs:sequence>
+        <xs:element name="paso" type="tipoPaso" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="tipoPaso">
+      <xs:sequence>
+        <xs:element name="paso" type="xs:string" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="paso" type="xs:integer"/>
+    </xs:complexType>
+
+  </xs:element>
+
+</xs:schema>

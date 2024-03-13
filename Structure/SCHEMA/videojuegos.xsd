@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  
+  <xs:element name="ejemplo_videojuegos" type="tipoEjemplo_Videojuegos">
+
+    <xs:complexType name="tipoEjemplo_Videojuegos">
+      <xs:sequence>
+        <xs:element name="videojuegos" type="tipoVideojuegos"/>
+        <xs:element name="usuarios" type="tipoUsuarios"/>
+        <xs:element name="prestamos" type="tipoPrestamos"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoVideojuegos">
+      <xs:sequence>
+        <xs:element name="videojuego" type="tipoVideojuego" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoVideojuego">
+      <xs:sequence>
+        <xs:element name="titulo" type="xs:string"/>
+        <xs:element name="desarrollador" type="xs:string"/>
+        <xs:element name="pais_origen" type="xs:string"/>
+        <xs:element name="anio" type="xs:integer"/>
+        <xs:element name="generos" type="tipoGeneros"/>
+        <xs:element name="plataformas" type="tipoPlataformas"/>
+      </xs:sequence>
+      <xs:attribute name="codigo" type="xs:string" use="required"/>
+    </xs:complexType>
+    
+    <xs:complexType name="tipoGeneros">
+      <xs:sequence>
+        <xs:element name="genero" type="tipoGenero" maxOccurs="unbounded"/>
+     </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoGenero">
+      <xs:attribute name="nombre" type="xs:string" use="required"/>
+    </xs:complexType>
+    
+    <xs:complexType name="tipoPlataformas">
+      <xs:sequence>
+        <xs:element name="plataforma" type="tipoPlataforma" maxOccurs="unbounded"/>
+     </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="tipoPlataforma">
+      <xs:attribute name="maquina" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="tipoUsuarios">
+      <xs:sequence>
+        <xs:element name="usuario" type="xs:string"/>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="tlf" type="xs:integer"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoPrestamos">
+      <xs:sequence>
+        <xs:element name="prestamo" type="tipoPrestamo" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoPrestamo">
+      <xs:sequence>
+        <xs:element name="usuario_prestamo" type="xs:string"/>
+        <xs:element name="codigo_prestamo" type="xs:string"/>
+        <xs:element name="fecha_prestamo" type="xs:date"/>
+      </xs:sequence>
+    </xs:complexType>
+      
+  </xs:element>
+
+</xs:schema>

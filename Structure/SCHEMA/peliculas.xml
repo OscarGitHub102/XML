@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<peliculas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="peliculas.xsd">
+  <pelicula orden = "1">
+    <titulo>Interestelar</titulo>
+    <tit_ori>Interstellar</tit_ori>
+    <nacionalidades>
+        <nacionalidad nacion = "1">Estados Unidos</nacionalidad>
+        <nacionalidad nacion = "2">Reino Unido</nacionalidad>
+        <nacionalidad nacion = "3">Canadá</nacionalidad>
+    </nacionalidades>
+    <idiomas>
+      <idioma>Inglés</idioma>
+    </idiomas>
+    <anio_produccion>2014</anio_produccion>
+    <directores>
+     <director>Christopher Nolan</director>
+    </directores>
+    <interpretes>
+      <interprete numero = "1">Matthew McConaughey</interprete>
+      <interprete numero = "2">Anne Hathaway</interprete>
+      <interprete numero = "3">Jessica Chastain</interprete>
+      <interprete numero = "4">Bill Irwin</interprete>
+    </interpretes>
+  </pelicula>
+  <pelicula orden = "2">
+    <titulo>Soy leyenda</titulo>
+    <tit_ori>I am a legend</tit_ori>
+    <nacionalidades>
+      <nacionalidad>Estados Unidos</nacionalidad>
+    </nacionalidades>
+    <idiomas>
+      <idioma>Inglés</idioma>
+    </idiomas>
+    <anio_produccion>2007</anio_produccion>
+    <directores>
+      <director>Francis Lawrence</director>
+    </directores>
+    <interpretes>
+        <interprete numero = "1">Will Smith</interprete>
+        <interprete numero = "2">Alice Braga</interprete>
+        <interprete numero = "3">Dash Mihok</interprete>
+    </interpretes>
+  </pelicula>
+  <pelicula orden = "3">
+    <titulo>Lo imposible</titulo>
+    <tit_ori>The Impossible</tit_ori>
+  <nacionalidades>
+      <nacionalidad>España</nacionalidad>
+    </nacionalidades>
+    <idiomas>
+        <idioma idio = "1">Inglés</idioma>
+        <idioma idio = "2">Tailandés</idioma>
+    </idiomas>
+    <anio_produccion>2012</anio_produccion>
+    <directores>
+      <director>Juan Antonio Bayona</director>
+    </directores>
+    <interpretes>
+        <interprete numero = "1">Naomi Watts</interprete>
+        <interprete numero = "2">Ewan McGregor</interprete>
+        <interprete numero = "3">Tom Hollland</interprete>
+        <interprete numero = "4">Samuel Joslin</interprete>
+    </interpretes>
+  </pelicula>
+  <pelicula orden = "4">
+    <titulo>Intocable</titulo>
+    <tit_ori>Intouchables</tit_ori>
+    <nacionalidades>
+      <nacionalidad>Francia</nacionalidad>
+    </nacionalidades>
+    <idiomas>
+      <idioma>Francés</idioma>
+    </idiomas>
+    <anio_produccion>2011</anio_produccion>
+    <directores>
+        <director direc = "1">Olivier Nakache</director>
+        <director direc = "2">Éric Toledano</director>
+    </directores>  
+    <interpretes>
+        <interprete numero = "1">François Cluzet</interprete>
+        <interprete numero = "2">Omar Sy</interprete>
+    </interpretes>
+  </pelicula>
+  <pelicula orden = "5">
+    <titulo>El lobo de Wall Street</titulo>
+    <tit_ori>The Wolf of Wall Street</tit_ori>
+    <nacionalidades>
+      <nacionalidad>Reino Unido</nacionalidad>
+    </nacionalidades>
+    <idiomas>
+      <idioma>Inglés</idioma>
+    </idiomas>
+    <anio_produccion>2013</anio_produccion>
+    <directores>
+      <director>Martin Scorsese</director>
+    </directores>
+    <interpretes>
+        <interprete numero = "1">Leonardo DiCaprio</interprete>
+        <interprete numero = "2">Jonah Hill</interprete>
+        <interprete numero = "3">Margot Robbie</interprete>
+    </interpretes>
+  </pelicula>
+</peliculas>

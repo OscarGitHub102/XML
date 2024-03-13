@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ejemplo_videojuegos SYSTEM "videojuegos.dtd">
+<ejemplo_videojuegos>
+  <videojuegos>
+    <videojuego codigo = "V_1">
+      <titulo>The Last of Us II</titulo>
+      <desarrollador>Naughty Dog</desarrollador>
+      <pais_origen>Estados Unidos</pais_origen>
+      <anio>2020</anio>
+      <generos>
+        <genero nombre="Acción"/>
+        <genero nombre="Aventura"/>
+        <genero nombre="Terror"/>
+      </generos>
+      <plataformas>
+        <plataforma maquina = "PlayStation"/>
+      </plataformas>
+    </videojuego>
+    <videojuego codigo = "V_2">
+      <titulo>Hollow Knight</titulo>
+      <desarrollador>Team Cherry</desarrollador>
+      <pais_origen>Australia</pais_origen>
+      <anio>2017</anio>
+      <generos>
+        <genero nombre="Plataformas"/>
+        <genero nombre="Metroidvania"/>
+      </generos>
+      <plataformas>
+        <plataforma maquina = "PC"/>
+        <plataforma maquina = "PlayStation"/>
+        <plataforma maquina = "Xbox"/>
+        <plataforma maquina = "Switch"/>
+      </plataformas>
+    </videojuego>
+  </videojuegos>
+  <usuarios>
+    <usuario>jlopez</usuario>
+    <nombre>Julia López</nombre>
+    <tlf>55512345</tlf>
+  </usuarios>
+  <prestamos>
+    <prestamo>
+      <usuario_prestamo>jlopez</usuario_prestamo>
+      <codigo_prestamo>V_2</codigo_prestamo>
+      <fecha_prestamo>12/09/2019</fecha_prestamo>
+    </prestamo>
+  </prestamos>
+</ejemplo_videojuegos>

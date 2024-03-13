@@ -1,0 +1,21 @@
+<!ELEMENT ejemplo_videojuegos (videojuegos, usuarios, prestamos)>
+<!ELEMENT videojuegos (videojuegos+)>
+<!ELEMENT videojuego (titulo, desarrollador, pais_origen, anio, generos)>
+<!ATTLIST videojuego codigo CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT desarrollador (#PCDATA)>
+<!ELEMENT pais_origen (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT generos (genero+)>
+<!ATTLIST genero nombre CDATA #REQUIRED>
+<!ELEMENT plataformas (plataforma+)>
+<!ATTLIST plataforma maquina CDATA #REQUIRED>
+<!ELEMENT usuarios (usuario, nombre, tlf)>
+<!ELEMENT usuario (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT tlf (#PCDATA)>
+<!ELEMENT prestamos (prestamo+)>
+<!ELEMENT prestamo (usuario_prestamo, codigo_prestamo, fecha_prestamo)>
+<!ELEMENT usuario_prestamo (#PCDATA)>
+<!ELEMENT codigo_prestamo (#PCDATA)>
+<!ELEMENT fecha_prestamo (#PCDATA)>

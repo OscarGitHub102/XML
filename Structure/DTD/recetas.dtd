@@ -11,3 +11,4 @@
 <!ELEMENT preparacion (paso+)>
 <!ELEMENT paso (#PCDATA)>
 <!ATTLIST paso paso CDATA #REQUIRED>
+<!ELEMENT apto_celiacos (#PCDATA)>

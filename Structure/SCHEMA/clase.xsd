@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="curso" type="tipoCurso">
+
+    <xs:complexType name="tipoCurso">
+      <xs:sequence>
+        <xs:element name="grupo" type="tipoGrupo" maxOccurs="unbounded"/>
+        <xs:element name="horario">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dia" type="tipoDia" maxOccurs="unbounded"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="equipos" type="tipoEquipos" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoGrupo">
+      <xs:sequence>
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="aula" type="xs:integer"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoDia">
+      <xs:sequence>
+        <xs:element name="dia_semana" type="xs:string"/>
+        <xs:element name="clase" type="tipoClase" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="numero" type="xs:integer"/>
+    </xs:complexType>
+
+    <xs:complexType name="tipoClase">
+      <xs:sequence>
+        <xs:element name="hora" type="xs:string"/>
+        <xs:element name="asignatura" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute name="orden" type="xs:integer"/>
+    </xs:complexType>
+
+    <xs:complexType name="tipoEquipos">
+      <xs:sequence>
+        <xs:element name="equipo" type="tipoEquipo" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoEquipo">
+      <xs:sequence>
+        <xs:element name="num_equipo" type="xs:integer"/>
+        <xs:element name="ip" type="xs:string"/>
+        <xs:element name="mascara" type="xs:string"/>
+        <xs:element name="puerta_enlace" type="xs:string"/>
+        <xs:element name="alumnos" type="tipoAlumno"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:integer"/>
+    </xs:complexType>
+    
+    <xs:complexType name="tipoAlumno">
+      <xs:sequence>
+        <xs:element name="alumno" type="xs:string" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="alum" type="xs:integer"/>
+    </xs:complexType>
+
+  </xs:element>
+
+</xs:schema>
