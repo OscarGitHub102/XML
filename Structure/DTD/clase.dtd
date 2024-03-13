@@ -1,0 +1,23 @@
+<!ELEMENT curso (grupo, horario, equipos)>
+<!ELEMENT grupo (nombre, aula)>
+<!ELEMENT nombre #PCDATA>
+<!ELEMENT aula #CDATA>
+<!ELEMENT horario (dia)>
+<!ELEMENT dia (nombre, clase)>
+<!ATTLIST dia número CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT clase (hora, asignatura)>
+<!ATTLIST clase orden #CDATA #REQUIRED>
+<!ELEMENT hora #PCDATA>
+<!ELEMENT asignatura #PCDATA>
+<!ELEMENT equipos (equipo)>
+<!ELEMENT equipo (num_equipo, ip, mascara, puerta_enlace, alumnos)>
+<!ATTLIST equipo id CDATA #REQUIRED>
+<!ELEMENT num_equipo #CDATA >
+<!ELEMENT ip #PCDATA >
+<!ELEMENT mascara #PCDATA >
+<!ELEMENT puerta_enlace #PCDATA >
+<!ELEMENT alumnos (alumno+) >
+<!ELEMENT alumno #PCDATA >
+<!ATTLIST alumno alum #CDATA >
+<!ELEMENT element (#PCDATA)>
