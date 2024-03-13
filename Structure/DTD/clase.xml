@@ -6,7 +6,7 @@
     <aula>101</aula>
   </grupo>
   <horario>
-  <dia número = "1">
+  <dia numero = "1">
     <nombre>Lunes</nombre>
     <clase orden = "1">
       <hora>8:30 - 9:25</hora>
@@ -37,7 +37,7 @@
       <asignatura>Programación</asignatura>
     </clase>
   </dia>
-  <dia número = "2">
+  <dia numero = "2">
     <nombre>Martes</nombre>
       <clase orden = "1">
         <hora>8:30 - 9:25</hora>
@@ -68,7 +68,7 @@
         <asignatura>Lenguaje de Marcas</asignatura>
       </clase>
     </dia>
-  <dia número = "3">
+  <dia numero = "3">
     <nombre>Miércoles</nombre>
     <clase orden = "1">
       <hora>8:30 - 9:25</hora>
@@ -99,7 +99,7 @@
       <asignatura>Entornos de Desarrollo</asignatura>
     </clase>
   </dia>
-  <dia número = "4">
+  <dia numero = "4">
   <nombre>Jueves</nombre>
     <clase orden = "1">
       <hora>8:30 - 9:25</hora>
@@ -130,7 +130,7 @@
       <asignatura>Bases de Datos</asignatura>
     </clase>
   </dia>
-  <dia número = "5">
+  <dia numero = "5">
     <nombre>Viernes</nombre>
     <clase orden = "1">
       <hora>8:30 - 9:25</hora>

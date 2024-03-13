@@ -4,7 +4,7 @@
 <!ELEMENT aula #CDATA>
 <!ELEMENT horario (dia)>
 <!ELEMENT dia (nombre, clase)>
-<!ATTLIST dia número CDATA #REQUIRED>
+<!ATTLIST dia numero CDATA #REQUIRED>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT clase (hora, asignatura)>
 <!ATTLIST clase orden #CDATA #REQUIRED>
