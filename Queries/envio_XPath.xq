@@ -1,7 +1,6 @@
 (: 1. Seleccionar los primeros asegurados de las pólizas solo si tienen más de una garantía contratada :)
 (: /envio/poliza/asegurado[1][count(garantia)>1]/data(@nombre) :)
-s
-s
+
 (: 2. Seleccionar los asegurados que tengan contratada la garantía dental :)
 (: /envio/poliza/asegurado/garantia[tipo="Dental"]/../[@*] :)
 
