@@ -19,14 +19,14 @@
 
 (: 1. Obtener los nombres de los empleados de los departamentos tipo A, cuyo puesto es profesor :)
 (:
-for $prof in /universidad/departamento[@tipo='A']/empleado
+for $prof in doc("universidad.xml")/universidad/departamento[@tipo='A']/empleado
 where $prof/puesto='Profesor'
 return $prof/nombre
 :)
 
 (: 2. Devolver el nombre del departamento encerrado entre las etiquetas tipo A si es de este tipo y de tipo B para cualquier otro :)
 (:
-for $dep in /universidad/departamento
+for $dep in doc("universidad.xml")/universidad/departamento
 return
 if ($dep/@tipo='A')
 then <tipoA>{data($dep/nombre)}</tipoA>
@@ -35,14 +35,14 @@ else <tipoB>{data($dep/nombre)}</tipoB>
 
 (: 3. Obtener los nombres de los departamentos y los empleados que tiene entre etiquetas :)
 (:
-for $dep in /universidad/departamento
+for $dep in doc("universidad.xml")/universidad/departamento
 let $nom:=$dep/empleado
 return <depart>{data($dep/nombre)}<num_empleados>{count($nom)}</num_empleados></depart>
 :)
 
 (: 4. Obtener los nombres de los departamentos, los empleados que tiene y la media del salario entre etiquetas :)
 (:
-for $dep in /universidad/departamento
+for $dep in doc("universidad.xml")/universidad/departamento
 let $emp:=$dep/empleado
 let $sal:=$dep/empleado/@salario
 return 
