@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<curso>
+  <grupo>
+    <nombre>1º DAM</nombre>
+    <aula>101</aula>
+  </grupo>
+  <horario>
+  <dia numero = "1">
+    <dia_semana>Lunes</dia_semana>
+    <clase orden = "1">
+      <hora>8:30 - 9:25</hora>
+      <asignatura>Entornos de Desarrollo</asignatura>
+    </clase>
+    <clase orden = "2">
+      <hora>9:25 - 10:20</hora>
+      <asignatura>Entornos de Desarrollo</asignatura>
+    </clase>
+    <clase orden = "3">
+      <hora>10:20 - 11:15</hora>
+      <asignatura>Sistemas Informáticos</asignatura>
+    </clase>
+    <clase orden = "4">
+      <hora>11:15 - 11:40</hora>
+      <asignatura>Recreo</asignatura>
+    </clase>
+    <clase orden = "5">
+      <hora>11:40 - 12:35</hora>
+      <asignatura>Programación</asignatura>
+    </clase>
+    <clase orden = "6">
+      <hora>12:35 - 13:30</hora>
+      <asignatura>Programación</asignatura>
+    </clase>
+    <clase orden = "7">
+      <hora>13:30 - 14:25</hora>
+      <asignatura>Programación</asignatura>
+    </clase>
+  </dia>
+  <dia numero = "2">
+    <dia_semana>Martes</dia_semana>
+      <clase orden = "1">
+        <hora>8:30 - 9:25</hora>
+        <asignatura>Bases de Datos</asignatura>
+      </clase>
+      <clase orden = "2">
+        <hora>9:25 - 10:20</hora>
+        <asignatura>Bases de Datos</asignatura>
+      </clase>
+      <clase orden = "3">
+        <hora>10:20 - 11:15</hora>
+        <asignatura>Formación y Orientación Laboral</asignatura>
+      </clase>
+      <clase orden = "4">
+        <hora>11:15 - 11:40</hora>
+        <asignatura>Recreo</asignatura>
+      </clase>
+      <clase orden = "5">
+        <hora>11:40 - 12:35</hora>
+        <asignatura>Sistemas Informáticos</asignatura>
+      </clase>
+      <clase orden = "6">
+        <hora>12:35 - 13:30</hora>
+        <asignatura>Lenguaje de Marcas</asignatura>
+      </clase>
+      <clase orden = "7">
+        <hora>13:30 - 14:25</hora>
+        <asignatura>Lenguaje de Marcas</asignatura>
+      </clase>
+    </dia>
+  <dia numero = "3">
+    <dia_semana>Miércoles</dia_semana>
+    <clase orden = "1">
+      <hora>8:30 - 9:25</hora>
+      <asignatura>Programación</asignatura>
+    </clase>
+    <clase orden = "2">
+      <hora>9:25 - 10:20</hora>
+      <asignatura>Programación</asignatura>
+    </clase>
+    <clase orden = "3">
+      <hora>10:20 - 11:15</hora>
+      <asignatura>Programación</asignatura>
+    </clase>
+    <clase orden = "4">
+      <hora>11:15 - 11:40</hora>
+      <asignatura>Recreo</asignatura>
+    </clase>
+    <clase orden = "5">
+      <hora>11:40 - 12:35</hora>
+      <asignatura>Formación y Orientación Laboral</asignatura>
+    </clase>
+    <clase orden = "6">
+      <hora>12:35 - 13:30</hora>
+      <asignatura>Bases de Datos</asignatura>
+    </clase>
+    <clase orden = "7">
+      <hora>13:30 - 14:25</hora>
+      <asignatura>Entornos de Desarrollo</asignatura>
+    </clase>
+  </dia>
+  <dia numero = "4">
+  <dia_semana>Jueves</dia_semana>
+    <clase orden = "1">
+      <hora>8:30 - 9:25</hora>
+      <asignatura>Lenguaje de Marcas</asignatura>
+    </clase>
+    <clase orden = "2">
+      <hora>9:25 - 10:20</hora>
+      <asignatura>Lenguaje de Marcas</asignatura>
+    </clase>
+    <clase orden = "3">
+      <hora>10:20 - 11:15</hora>
+      <asignatura>Sistemas Informáticos</asignatura>
+    </clase>
+    <clase orden = "4">
+      <hora>11:15 - 11:40</hora>
+      <asignatura>Recreo</asignatura>
+    </clase>
+    <clase orden = "5">
+      <hora>11:40 - 12:35</hora>
+      <asignatura>Bases de Datos</asignatura>
+    </clase>
+    <clase orden = "6">
+      <hora>12:35 - 13:30</hora>
+      <asignatura>Bases de Datos</asignatura>
+    </clase>
+    <clase orden = "7">
+      <hora>13:30 - 14:25</hora>
+      <asignatura>Bases de Datos</asignatura>
+    </clase>
+  </dia>
+  <dia numero = "5">
+    <dia_semana>Viernes</dia_semana>
+    <clase orden = "1">
+      <hora>8:30 - 9:25</hora>
+      <asignatura>Sistemas Informáticos</asignatura>
+    </clase>
+    <clase orden = "2">
+      <hora>9:25 - 10:20</hora>
+      <asignatura>Sistemas Informáticos</asignatura>
+    </clase>
+    <clase orden = "3">
+      <hora>10:20 - 11:15</hora>
+      <asignatura>Sistemas Informáticos</asignatura>
+    </clase>
+    <clase orden = "4">
+      <hora>11:15 - 11:40</hora>
+      <asignatura>Recreo</asignatura>
+    </clase>
+    <clase orden = "5">
+      <hora>11:40 - 12:35</hora>
+      <asignatura>Formación y Orientación Laboral</asignatura>
+    </clase>
+    <clase orden = "6">
+      <hora>12:35 - 13:30</hora>
+      <asignatura>Programación</asignatura>
+    </clase>
+    <clase orden = "7">
+      <hora>13:30 - 14:25</hora>
+      <asignatura>Programación</asignatura>
+    </clase>
+  </dia>
+  </horario>
+  <equipos>
+    <equipo id = "1">
+      <num_equipo>01</num_equipo>
+      <ip>192.168.0.01</ip>
+      <mascara>255.255.255.0</mascara>
+      <puerta_enlace>255.255.0.254</puerta_enlace>
+      <alumnos>
+        <alumno alum = "1">Paco Fernández</alumno>
+        <alumno alum = "2">Alicia Pérez</alumno>
+      </alumnos>
+    </equipo>
+    <equipo id = "2">
+      <num_equipo>02</num_equipo>
+      <ip>192.168.0.02</ip>
+      <mascara>255.255.255.0</mascara>
+      <puerta_enlace>255.255.0.254</puerta_enlace>
+      <alumnos>
+        <alumno alum = "1">Álvaro Ortega</alumno>
+        <alumno alum = "2">Juan Rodríguez</alumno>
+      </alumnos>
+    </equipo>
+    <equipo id = "3">
+      <num_equipo>03</num_equipo>
+      <ip>192.168.0.03</ip>
+      <mascara>255.255.255.0</mascara>
+      <puerta_enlace>255.255.0.254</puerta_enlace>
+      <alumnos>
+        <alumno alum = "1">María García</alumno>
+        <alumno alum = "2">Irene Herránz</alumno>
+      </alumnos>
+    </equipo>
+  </equipos>
+</curso>

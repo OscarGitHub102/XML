@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clinica
+[
+<!ELEMENT clinica (cita+)>
+<!ELEMENT cita (medico, paciente)>
+<!ELEMENT medico (especialidad+)>
+<!ELEMENT paciente (diagnostico*)>
+<!ELEMENT diagnostico (#PCDATA)>
+<!ELEMENT especialidad (#PCDATA)>
+<!ATTLIST cita numcita ID #REQUIRED>
+<!ATTLIST cita fecha CDATA #REQUIRED>
+<!ATTLIST clinica nombre CDATA #REQUIRED>
+<!ATTLIST clinica direccion CDATA #IMPLIED>
+<!ATTLIST medico nif ID #REQUIRED>
+<!ATTLIST medico nombre CDATA #IMPLIED>
+<!ATTLIST medico apellidos CDATA #IMPLIED>
+<!ATTLIST paciente nif ID #REQUIRED>
+<!ATTLIST paciente nombre CDATA #IMPLIED>
+<!ATTLIST paciente apellidos CDATA #IMPLIED>
+]>
+
+<clinica nombre = "Clínica Alcalá" direccion = "Calle Alcalá, número 45">
+  <cita numCita = "1" fecha = "/04/2023">
+    <medico nif = "1234567X" nombre = "Juan" apellidos = "López">
+      <especialidad>Traumatología</especialidad>
+    </medico>
+    <paciente nif = "7654321N" nombre = "Maite" apellidos = "Ruiz">
+      <diagnostico>Rotura de ligamentos</diagnostico>
+    </paciente>
+  </cita>
+  <cita numCita = "2" fecha = "/04/2023">
+    <medico nif = "11223344X" nombre = "Susana" apellidos = "Rubio">
+      <especialidad>Dermatología</especialidad>
+    </medico>
+    <paciente nif = "7654321N" nombre = "Maite" apellidos = "Ruiz"/>
+  </cita>
+  <cita numCita = "3" fecha = "/04/2023">
+    <medico nif = "1234567X" nombre = "Juan" apellidos = "López">
+      <especialidad>Traumatología</especialidad>
+    </medico>
+    <paciente nif = "77665544A" nombre = "Luis" apellidos = "García"/>
+  </cita>
+</clinica>
