@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ciclos.xsl"?>
+<ies ies="IES CRUZ DEL SUR">
+  <ciclos familia="Informatica" web="http://www.cruzdelsur.info">
+    <ciclo id="ASIR">
+      <nombre>Administración de Sistemas Informáticos en Red</nombre>
+      <grado>Superior</grado>
+      <decreto año="2009" enlace="http://www.madrid.org/fp/ense_fp/catalogo_LOE/pdf/IFCS01/titulo/RD20091629_TS_Admon_Sistemas_Informaticos_en_Red.pdf" />
+	  <alumnos numero="33"/>
+    </ciclo>
+    <ciclo id="DAW">
+      <nombre>Desarrollo de Aplicaciones Web</nombre>
+      <grado>Superior</grado>
+      <decreto año="2010" enlace="http://www.madrid.org/fp/ense_fp/catalogo_LOE/pdf/IFCS03/titulo/RD20100686_TS_Desarrollo_Aplicaciones_Web.pdf"/>
+	  <alumnos numero="27"/>
+    </ciclo>
+    <ciclo id="DAM">
+      <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+      <grado>Superior</grado>
+      <decreto año="2010" enlace="http://www.madrid.org/fp/ense_fp/catalogo_LOE/pdf/IFCS02/titulo/RD20100450_TS_Desarrollo_Aplicaciones_Multiplataforma.pdf" />
+	  <alumnos numero="20"/>
+    </ciclo>
+  </ciclos>
+</ies>

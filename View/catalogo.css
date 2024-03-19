@@ -1,0 +1,52 @@
+th, td
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+td
+{
+	background-color: rgb(226, 233, 236);
+}
+
+.hr1
+{
+	margin-left: 0%;
+	height: 10px;
+	width: 50%;
+	background-color: white;
+	border: none;
+}
+
+.hr2
+{
+	margin-left: 0%;
+	height: 3px;
+	width: 50%;
+	background-color: black;
+	border: none;
+}
+
+.header
+{
+	background-color: rgb(161, 220, 238);
+	font-weight: bold; 
+}
+
+.alto
+{
+	background-color: rgb(241, 149, 241);
+}
+
+.medio
+{
+	background-color: rgb(119, 231, 109);
+}
+
+.bajo
+{
+	background-color: rgb(252, 252, 44);
+}
