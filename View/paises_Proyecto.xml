@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="paises_Proyecto.css"?>
+<?xml-stylesheet type="text/xsl" href="paises_Proyecto.xsl"?>
+
+<!DOCTYPE paises SYSTEM "paises_Proyecto.dtd">
+<paises>
+  <pais>
+    <nombre>España</nombre>
+    <capital>Madrid</capital>
+    <continente>Europa</continente>
+    <idioma>Español</idioma>
+    <lider_politico>Pedro Sánchez</lider_politico>
+    <ciudades>
+      <ciudad nombre="Madrid" gentilicio = "madrileño/a" huso_horario = "GMT +1">
+        <superficie km = "604.3"/>
+        <poblacion millones = "3.8"/>
+        <monumentos>
+          <monumento>Plaza Mayor</monumento>
+          <monumento>Puerta del Sol</monumento>
+          <monumento>Museo Nacional del Prado</monumento>
+          <monumento>Parque de El Retiro</monumento>
+        </monumentos>
+      </ciudad>
+      <ciudad nombre = "Barcelona" gentilicio = "barcelonés/a" huso_horario = "GMT +1">
+        <superficie km = "101"/>
+        <poblacion millones = "1.7"/>
+        <monumentos>
+          <monumento>La Basílica de la Sagrada Familia</monumento>
+          <monumento>Park Güel</monumento>
+          <monumento>Catedral de Barcelona</monumento>
+        </monumentos>
+      </ciudad>
+      <ciudad nombre = "Sevilla" gentilicio = "sevillano/a" huso_horario = "GMT +1">
+        <superficie km = "140"/>
+        <poblacion millones = "0.7"/>
+        <monumentos>
+          <monumento>La Giralda</monumento>
+          <monumento>La Torre del Oro</monumento>
+          <monumento>Plaza de España</monumento>
+        </monumentos>
+      </ciudad>
+    </ciudades>
+    <tiene_costa>Sí</tiene_costa>
+  </pais>
+  <pais>
+    <nombre>Inglaterra</nombre>
+    <capital>Londres</capital>
+    <continente>Europa</continente>
+    <idioma>Inglés</idioma>
+    <lider_politico>Boris Johnson</lider_politico>
+    <ciudades>
+      <ciudad nombre = "Londres" gentilicio = "londinense" huso_horario = "GMT +0">
+        <superficie km = "1572"/>
+        <poblacion millones = "9"/>
+        <monumentos>
+          <monumento>Big Ben</monumento>
+          <monumento>Tower of London</monumento>
+          <monumento>Hyde Park</monumento>
+          <monumento>The Houses of Parliament</monumento>
+        </monumentos>
+      </ciudad>
+      <ciudad nombre = "Liverpool" gentilicio = "liverpuliano/a" huso_horario = "GMT +0">
+        <superficie km = "111.8"/>
+        <poblacion millones = "0.5"/>
+        <monumentos>
+          <monumento>Albert Dock</monumento>
+          <monumento>The Beatles Story Museum</monumento>
+          <monumento>Anfield</monumento>
+        </monumentos>
+      </ciudad>
+    </ciudades>
+    <tiene_costa>Sí</tiene_costa>
+  </pais>
+  <pais>
+    <nombre>Estados Unidos</nombre>
+    <capital>Washington</capital>
+    <continente>América</continente>
+    <idioma>Inglés</idioma>
+    <lider_politico>Joe Biden</lider_politico>
+    <ciudades>
+      <ciudad nombre = "Nueva York" gentilicio = "neoyorquino/a" huso_horario = "GMT -4">
+        <superficie km = "783.8"/>
+        <poblacion millones = "8.5"/>
+        <monumentos>
+          <monumento>Central Park</monumento>
+          <monumento>Statue of Liberty</monumento>
+          <monumento>Times Square</monumento>
+          <monumento>Empire State Building</monumento>
+        </monumentos>
+      </ciudad>
+      <ciudad nombre = "Los Ángeles" gentilicio = "angelino/a" huso_horario = "GMT -7">
+        <superficie km = "1299"/>
+        <poblacion millones = "4"/>
+        <monumentos>
+          <monumento>Los Estudios "Universal Hollywood"</monumento>
+          <monumento>Griffith Park</monumento>
+          <monumento>Walk of Fame</monumento>
+          <monumento>Santa Monica Pier</monumento>
+        </monumentos>
+      </ciudad>
+      <ciudad nombre = "San Francisco" gentilicio = "sanfranciscano/a" huso_horario = "GMT -7">
+        <superficie km = "121.4"/>
+        <poblacion millones = "0.85"/>
+        <monumentos>
+          <monumento>Golden Gate Bridge</monumento>
+          <monumento>Alcatraz Island</monumento>
+          <monumento>Oakland Bay Bridge</monumento>
+        </monumentos>
+      </ciudad>
+    </ciudades>
+    <tiene_costa>Sí</tiene_costa>
+  </pais>
+  <pais>
+    <nombre>Italia</nombre>
+    <capital>Roma</capital>
+    <continente>Europa</continente>
+    <idioma>Italiano</idioma>
+    <lider_politico>Sergio Mattarella</lider_politico>
+    <ciudades>
+      <ciudad nombre = "Roma" gentilicio = "romano/a" huso_horario = "GMT +1">
+        <superficie km = "1285"/>
+        <poblacion millones = "2.9"/>
+        <monumentos>
+          <monumento>Colosseo</monumento>
+          <monumento>Basilica Papale di San Pietro</monumento>
+          <monumento>Fontana di Trevi</monumento>
+        </monumentos>
+      </ciudad>
+      <ciudad nombre = "Venecia" gentilicio = "veneciano/a" huso_horario = "GMT +1">
+        <superficie km = "414.6"/>
+        <poblacion millones = "0.27"/>
+        <monumentos>
+          <monumento>Ponte di Rialto</monumento>
+          <monumento>Piazza San Marcos</monumento>
+          <monumento>Gran Canal</monumento>
+        </monumentos>
+      </ciudad>
+      <ciudad nombre = "Florencia" gentilicio = "florentino/a" huso_horario = "GMT +1">
+        <superficie km = "102.4"/>
+        <poblacion millones = "0.4"/>
+        <monumentos>
+          <monumento>Piazzale Michelangelo</monumento>
+          <monumento>Piazza del Duomo</monumento>
+        </monumentos>
+      </ciudad>
+    </ciudades>
+    <tiene_costa>Sí</tiene_costa>
+  </pais>
+  <pais>
+    <nombre>Japón</nombre>
+    <capital>Tokio</capital>
+    <continente>Asia</continente>
+    <idioma>Japonés</idioma>
+    <lider_politico>Fumio Kishida</lider_politico>
+    <ciudades>
+      <ciudad nombre = "Tokio" gentilicio = "tokiota" huso_horario = "GMT +9">
+        <superficie km = "2194"/>
+        <poblacion millones = "14"/>
+        <monumentos>
+          <monumento>Tõkyõ tawã</monumento>
+          <monumento>Sensõ-ji</monumento>
+          <monumento>Yasukuni Jinja</monumento>
+        </monumentos>
+      </ciudad>
+      <ciudad nombre = "Osaka" gentilicio = "osaqueño/a" huso_horario = "GMT +9">
+        <superficie km = "223"/>
+        <poblacion millones ="2.9"/>
+        <monumentos>
+          <monumento>Sumiyoshi Taisha</monumento>
+          <monumento>Õsaka-jõ</monumento>
+          <monumento>Shitennõ-ji</monumento>
+        </monumentos>
+      </ciudad>
+      <ciudad nombre = "Kioto" gentilicio = "kiotense" huso_horario = "GMT +9">
+        <superficie km = "827.8"/>
+        <poblacion millones = "1.5"/>
+        <monumentos>
+          <monumento>Kinkaku-ji</monumento>
+          <monumento>Fushimi Inari-Taisha</monumento>
+        </monumentos>
+      </ciudad>
+    </ciudades>
+    <tiene_costa>Sí</tiene_costa>
+  </pais>
+</paises>

@@ -1,0 +1,17 @@
+<!ELEMENT paises (pais+)>
+<!ELEMENT pais (nombre, capital, continente, idioma, lider_politico, ciudades, tiene_costa)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT capital (#PCDATA)>
+<!ELEMENT continente (#PCDATA)>
+<!ELEMENT idioma (#PCDATA)>
+<!ELEMENT lider_politico (#PCDATA)>
+<!ELEMENT ciudades (ciudad+)>
+<!ELEMENT ciudad (superficie, poblacion, monumentos)>
+<!ELEMENT monumentos (monumento+)>
+<!ELEMENT monumento (#PCDATA)>
+<!ELEMENT tiene_costa (#PCDATA)>
+<!ATTLIST ciudad nombre CDATA #REQUIRED>
+<!ATTLIST ciudad gentilicio CDATA #IMPLIED>
+<!ATTLIST ciudad huso_horario CDATA #REQUIRED>
+<!ATTLIST superficie km CDATA #REQUIRED>
+<!ATTLIST poblacion millones CDATA #REQUIRED>
