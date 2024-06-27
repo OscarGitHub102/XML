@@ -54,7 +54,7 @@ else <discoCaro>{data($x/title)}</discoCaro>
 
 (: ------------- XQuery embebida en HTML -------------- :)
 
-(: 1. Los datos de todos los discos en formato de tabla :)
+(: 1. Los datos de todos los discos en formato de tabla (consultar archivo "cdcatalog1.html" en la carpeta Queries) :)
 
 (:
 <html>
@@ -89,7 +89,7 @@ else <discoCaro>{data($x/title)}</discoCaro>
 </html>
 :)
 
-(: 2. Los títulos de los discos de Bob Dylan en formato de lista HTML :)
+(: 2. Los títulos de los discos de Bob Dylan en formato de lista HTML (consultar archivo "cdcatalog2.html" en la carpeta Queries) :)
 
 (:
 <html>
@@ -108,7 +108,7 @@ else <discoCaro>{data($x/title)}</discoCaro>
 :)
 
 (: 3. Los discos mostrados con tres colores según su rango de precios, 
-distinguiendo menos de 9, entre 9 y 10, y mayor de 10 :)
+distinguiendo menos de 9, entre 9 y 10, y mayor de 10 (consultar archivo "cdcatalog3.html" en la carpeta Queries) :)
 
 (:
 <html>
@@ -133,7 +133,7 @@ distinguiendo menos de 9, entre 9 y 10, y mayor de 10 :)
 </html>
 :)
 
-(: 4. Generar un enlace HTML (<a>) con la URL y el nombre de la tienda :)
+(: 4. Generar un enlace HTML (<a>) con la URL y el nombre de la tienda (consultar archivo "cdcatalog4.html" en la carpeta Queries) :)
 
 (:
 <html>
