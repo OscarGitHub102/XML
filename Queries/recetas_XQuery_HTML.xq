@@ -9,7 +9,7 @@ return <paso>{data($x)}</paso>
 
 (: ------------- XQuery embebida en HTML -------------- :)
 
-(: Subrayar las que lleven sal y tachar las que no :)
+(: Subrayar las que lleven sal y tachar las que no (consultar archivo "recetas.html" en la carpeta Queries) :)
 
 (:
 <html>
