@@ -69,7 +69,7 @@ return
 
 (: Generar un documento html con un encabezado que diga “Listado de 
 libros” seguido de una tabla de 3 columnas, en la que se muestre el título, 
-editorial y precio de cada libro :)
+editorial y precio de cada libro (consultar archivo "libros.html" en la carpeta Queries) :)
 
 (:
 for $a in doc("libros.xml")/bib
