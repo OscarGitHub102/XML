@@ -9,7 +9,7 @@ return <fecha>{data($x)}</fecha>
 
 (: ------------- XQuery embebida en HTML -------------- :)
 
-(: Videojuegos que están disponibles para PC :)
+(: Videojuegos que están disponibles para PC (consultar archivo "videojuegos.html" en la carpeta Queries) :)
 
 (:
 <html>
