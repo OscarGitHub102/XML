@@ -11,7 +11,7 @@ return <nombre>{data($x)}</nombre>
 
 (: ------------- XQuery embebida en HTML -------------- :)
 
-(: La asignatura de la segunda hora del jueves :)
+(: La asignatura de la segunda hora del jueves (consultar archivo "clase.html" en la carpeta Queries) :)
 
 (:
 <html>
