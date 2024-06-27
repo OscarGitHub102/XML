@@ -8,7 +8,7 @@ return <interprete>{data($x)}</interprete>
 
 (: ------------- XQuery embebida en HTML -------------- :)
 
-(: Diferenciar películas por el número de intérpretes (con colores) :)
+(: Diferenciar películas por el número de intérpretes (con colores) (consultar archivo "peliculas.html" en la carpeta Queries) :)
 
 (:
 <html>
