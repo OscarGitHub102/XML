@@ -9,7 +9,7 @@ return <paciente>{$x/@nombre}</paciente>
 
 (: ------------- XQuery embebida en HTML -------------- :)
 
-(: El nombre de los pacientes del médico Juan :)
+(: El nombre de los pacientes del médico Juan (consultar archivo "clinica.html" en la carpeta Queries) :)
 
 (:
 <html>
