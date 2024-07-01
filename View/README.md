@@ -1,6 +1,6 @@
-Para poder visualizar el archivo XML aplicándole una hoja de estilos XSL y un archivo de diseño CSS en Visual Studio Code habrá que hacer lo siguiente:
-1. Descargarse la extensión Live Server.
-2. En Visual Studio Code, situarse en la carpeta donde se encuentran los archivos XML, XSL y CSS.
-3. Ejecutar la extensión Live Server para simular un servidor (la extensión se verá abajo a la derecha).
-4. Se abrirá en el navegador la carpeta con los archivos con un puerto que asignará la extensión.
-5. Abrir el archivo XML para visualizar.
+In order to view the XML file by applying an XSL style sheet and a CSS design file in Visual Studio Code, you will have to do the following:
+1. Download the Live Server extension.
+2. In Visual Studio Code, go to the folder where the XML, XSL and CSS files are located.
+3. Run the Live Server extension to simulate a server (the extension will be seen below on the right).
+4. The folder with the files will open in the browser with a port that the extension will assign.
+5. Open the XML file to view.
